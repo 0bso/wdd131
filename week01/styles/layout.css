@@ -1,0 +1,62 @@
+:root {
+
+    --primary-color: grey;
+    --secondary-color: rgb(65, 64, 64);
+    --accent-color: black;
+
+}
+
+
+body{
+    display: grid;
+    grid-template-rows: 1fr  2fr 1fr; 
+    grid-template-columns: 1fr;           
+    height: 100vh;
+    width: auto;
+}
+
+header{
+    display: flex;              
+    flex-direction: column;      
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: white;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: var(--accent-color);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.center{
+    background-color: var(--primary-color);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+
+aside {
+    padding: 10px;
+}
+
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
