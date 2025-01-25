@@ -35,9 +35,18 @@ nav{
     background-color: var(--accent-color);
 }
 
-a{
+nav a{
     color: white;
     text-decoration: none;
+}
+
+li{
+    padding: 10px;
+    margin: 5px
+}
+
+.links a{
+    padding: 10px
 }
 
 
