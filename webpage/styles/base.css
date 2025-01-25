@@ -68,8 +68,6 @@ main {
 }
 
 .card {
-    
-    background-color: var(--primary-color);
     border-radius: 25px;
     border: thin solid black;
     margin: 10px;
