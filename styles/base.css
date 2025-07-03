@@ -23,6 +23,12 @@ header{
     color: white;
 
 }
+span{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 h1{
     text-align: center;
@@ -52,8 +58,8 @@ li{
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
 }
 
  h2{
